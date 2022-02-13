@@ -2,8 +2,8 @@ import asyncio
 
 import async_timeout
 import wavelink
-from nextcord import ClientException, Color, Embed
-from nextcord.ext import commands
+from discord import ClientException, Color, Embed
+from discord.ext import commands
 from wavelink import (LavalinkException, LoadTrackError, SoundCloudTrack,
                       YouTubeMusicTrack, YouTubeTrack)
 from wavelink.ext import spotify
