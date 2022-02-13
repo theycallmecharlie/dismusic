@@ -2,8 +2,8 @@ import os
 import asyncio
 
 import async_timeout
-import discord
-from discord.ext import commands
+import nextcord
+from nextcord.ext import commands
 from wavelink import Player
 
 from .errors import InvalidLoopMode, NotEnoughSong, NothingIsPlaying
